@@ -1,0 +1,21 @@
+.box {
+    width: 600px;
+    height: 600px;
+    background-color: wheat;
+    position: relative !important;
+  }
+  
+  .ball {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  button {
+    margin: 10px;
+  }
+  
